@@ -1,0 +1,138 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height:95%;
+    margin: auto;
+    font-family: Verdana;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+#fundo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#centro{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#header1{
+    position: relative;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+#nav1{
+    position: relative;
+    float: left;
+    background-color: blue;
+    color: white;
+
+}
+
+#nav2{
+    position: relative;
+    float: left;
+    background-color: gainsboro;
+    color: white;
+    width: 20%;
+}
+
+section{
+    position: relative;
+    float: left;
+    background-color: pink;
+    color: white;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+}
+
+#header2{
+    position: relative;
+    float: left;
+    background-color: white;
+    color: black;
+    height: 10%;
+    margin-bottom: 1%;
+
+}
+
+#divMeio{
+    position: relative;
+    float: left;
+    height: 50%;
+    background-color: rgb(165, 126, 42);
+    margin-bottom: 1%;
+}
+
+#divParagrafo{
+    position: relative;
+    float: left;
+    background-color:rgb(183, 194, 190);
+    height: 20%;
+    margin-bottom: 1%;
+    color: black;
+}
+#divBaixoBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%; 
+
+    justify-content: space-between; 
+
+}
+
+.divBaixo{
+    position: relative;
+    float: left;
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+   
+
+
+}
+
+
+aside{
+    position: relative;
+    float: left;
+    background-color: palevioletred;
+    color: white;
+    width: 20%;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+
+}

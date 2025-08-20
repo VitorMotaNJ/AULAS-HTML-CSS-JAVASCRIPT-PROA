@@ -1,0 +1,55 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+body{
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+
+}
+p{
+    text-align: center;
+    margin: 0;
+}
+
+#azul{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    background-color: blue;
+}
+#vermelho{
+    width: 700px;
+    height: 120px;
+    position: absolute;
+    background-color: red;
+    left: 250px;
+}
+#verde{
+    width: 950px;
+    height: 47px;
+    position: absolute;
+    background-color: rgb(48, 216, 48);
+    top: 110px;
+}
+#amarelo{
+    width: 930px;
+    height: 450px;
+    position: absolute;
+    border: 10px solid red;
+    background-color: yellow;
+    top: 157px;
+}
+#cinza{
+    width: 950px;
+    height: 100px;
+    position: absolute;
+    background-color: gray;
+    top: 627px;
+}

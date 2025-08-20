@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: 'CustomFont';
+    src: url('../fonts/neo-sans-pro-cufonfonts/NeoSansProRegular.OTF')
+}
+.content{
+    width: auto;
+    height: auto;
+    background-color: #1c3380;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'CustomFont';
+    padding: 10px 20px 10px 20px ;
+
+    border-right-color: #0b1a50;
+    border-right-width: 6px;
+    border-right-style:solid;
+    border-bottom-color: #0b1a50;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+
+    margin: auto;
+}
+
+a{
+    margin: auto;
+}
+.content:hover{
+    background-color: #223c92;
+    border-right-color: #102366;
+    border-right-width: 6px;
+    border-right-style: solid;
+    border-bottom-color: #102366;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    cursor: pointer;
+}
+
+.content:active{
+    background-color: #172c72;
+    border-right-color: #081542;
+    border-right-width: 0px;
+    border-right-style:solid;
+    border-bottom-color: #081542;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+}
+
+#proa-logo{
+    width: 150px;
+    user-select: none;
+    -webkit-user-drag: none;
+
+}
+
+p{
+    margin: 0;
+    user-select: none;
+}

@@ -1,0 +1,64 @@
+html{
+    padding: 1px;
+}
+
+body{
+
+    width: 80%;
+    height: 700px;
+    position: relative;
+    margin: auto;
+
+}
+
+#azul{
+    position: relative;
+    background-color: blue;
+    float: left;
+    width: 25%;
+    height: 15%;
+    
+}
+
+#vermelho{
+    position: relative;
+    background-color: red;
+    float: right;
+    width: 75%;
+    height: 15%;
+}
+
+#amarelo{
+    background-color: yellow;
+    position: relative;
+    float: inline-start;
+    height: 75%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 10px solid red;
+
+
+}
+
+
+#verde{
+    background-color: rgb(48, 233, 48);
+    position: relative;
+    float: inline-start;
+    height: 5%;
+    width: 100%;
+    
+}
+
+#cinza{
+    background-color: gray;
+    position: relative;
+    float: inline-start;
+    height: 5%;
+    width: 100%;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
