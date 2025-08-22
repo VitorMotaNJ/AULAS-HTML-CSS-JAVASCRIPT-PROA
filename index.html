@@ -20,7 +20,7 @@
         }
         main{
             padding-top:20px;
-            width: 90%;
+            width: 95%;
             height: 700px;
             margin: auto;
             background-color: rgb(86, 185, 250);
@@ -37,18 +37,37 @@
             flex-wrap: wrap;
         }
 
+        #caixa_titulo{
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid rgb(21, 163, 56);
+            padding: 16px 0px;
+            background-color: rgb(84, 204, 37);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+            
+        }
+        #caixa_links{
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             width: 100%;
+             height: 80%;
+        }
         .atividade{
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+
             margin: auto;
-            width: 150px;
+            width: 200px;
             height: 180px;
-            padding: 20px 20px;
-            border-radius: 5px;
+
+            border-radius: 6px;
+            border: 2px solid rgb(13, 134, 44);;
             background-color: rgb(255, 255, 255);
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-            color: black;
+            color: rgb(255, 255, 255);
             word-wrap: break-word;
         }
 
@@ -71,50 +90,78 @@
         </header>
         <section>
             <div class="atividade">
-                <p>Atividade 1</p>
-                <a href="Atividade 1/index.html" target="_blank">index.html</a>
-                <a href="Atividade 1/exercicio.html" target="_blank">exercicio.html</a>
-                <a href="Atividade 1/pagina.html" target="_blank">pagina.html</a>
+                <div id="caixa_titulo">
+                    <p>Atividade 1</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 1/index.html" target="_blank">index.html</a>
+                    <a href="Atividade 1/exercicio.html" target="_blank">exercicio.html</a>
+                    <a href="Atividade 1/pagina.html" target="_blank">pagina.html</a>
+                </div>
             </div>
             <div class="atividade">
-                <p>Atividade 2</p>
-                <a href="Atividade 2/camadas_absolutas.html" target="_blank">camadas_absolutas.html</a>
-                <a href="Atividade 2/exercicio2.html" target="_blank">exercicio2.html</a>
-            </div>
-                <div class="atividade">
-                <p>Atividade 3</p>
-                <a href="Atividade 3/camadas_relativas.html" target="_blank">camadas_relativas.htmlindex.html</a>
-                <a href="Atividade 3/exercicioCamadaRelativa.html" target="_blank">exercicioCamadaRelativa.html</a>
-                <a href="Atividade 3/exercicioCamadaRelativa2.html" target="_blank">exercicioCamadaRelativa2.html</a>
-            </div>
-            </div>
-                <div class="atividade">
-                <p>Atividade 4</p>
-                <a href="Atividade 4/tagSemanticaExercicio01.html" target="_blank">tagSemanticaExercicio01.html</a>
-                <a href="Atividade 4/tagSemanticaExercicio02.html" target="_blank">tagSemanticaExercicio02.html</a>
-                <a href="Atividade 4/tagsSemanticas01.html" target="_blank">tagsSemanticas01.htmll</a>
-            </div>
-            </div>
-                <div class="atividade">
-                <p>Atividade 5</p>
-                <a href="Atividade 5/tagSemanticaExercicio03.html" target="_blank">tagSemanticaExercicio03.html</a>
-                <a href="Atividade 5/tagSemanticaExercicio04.html" target="_blank">tagSemanticaExercicio04.html</a>
+                <div id="caixa_titulo">
+                    <p>Atividade 2</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 2/camadas_absolutas.html" target="_blank">camadas_absolutas.html</a>
+                    <a href="Atividade 2/exercicio2.html" target="_blank">exercicio2.html</a>
+                </div>
 
             </div>
+            <div class="atividade">
+                <div id="caixa_titulo">
+                    <p>Atividade 3</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 3/camadas_relativas.html" target="_blank">camadas_relativas.html</a>
+                    <a href="Atividade 3/exercicioCamadaRelativa.html" target="_blank">exercicioCamadaRelativa.html</a>
+                    <a href="Atividade 3/exercicioCamadaRelativa2.html" target="_blank">exercicioCamadaRelativa2.html</a>
+                </div>
             </div>
-                <div class="atividade">
-                <p>Atividade 6</p>
-                <a href="Atividade 6/index.html" target="_blank">index.html</a>
+
+            <div class="atividade">
+                <div id="caixa_titulo">
+                    <p>Atividade 4</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 4/tagSemanticaExercicio01.html" target="_blank">tagSemanticaExercicio01.html</a>
+                    <a href="Atividade 4/tagSemanticaExercicio02.html" target="_blank">tagSemanticaExercicio02.html</a>
+                    <a href="Atividade 4/tagsSemanticas01.html" target="_blank">tagsSemanticas01.html</a>
+                </div>
             </div>
+
+            <div class="atividade">
+                <div id="caixa_titulo">
+                    <p>Atividade 5</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 5/tagSemanticaExercicio03.html" target="_blank">tagSemanticaExercicio03.html</a>
+                    <a href="Atividade 5/tagSemanticaExercicio04.html" target="_blank">tagSemanticaExercicio04.html</a>
+                </div>
             </div>
-                <div class="atividade">
-                <p>Atividade 7</p>
-                <a href="Atividade 7/layout_responsivo.html" target="_blank">layout_responsivo.html</a>
+
+            <div class="atividade">
+                <div id="caixa_titulo">
+                    <p>Atividade 6</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 6/index.html" target="_blank">index.html</a>
+                </div>
             </div>
-            
+
+            <div class="atividade">
+                <div id="caixa_titulo">
+                    <p>Atividade 7</p>
+                </div>
+                <div id="caixa_links">
+                    <a href="Atividade 7/layout_responsivo.html" target="_blank">layout_responsivo.html</a>
+                </div>
+            </div>
+                        
 
         </section>
     </main>
-    
+ 
 </body>
 </html>
