@@ -83,7 +83,9 @@ main {
 }
 
 .caixa{
-    
+    width: 30%;
+    height: 140px;
+    background-color: #CCC;
 }
 
 aside {
