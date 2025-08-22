@@ -63,14 +63,20 @@ main {
 
 #div_meio {
     width: 100%;
-    height: 250px;
+    height: 260px;
     background-color: rgb(161, 49, 4);
     margin-top: 10px;
 }
 
+#div_meio img{
+    width: 100%;
+    height: 100%;
+}
+
+
 #meio p {
     width: 100%;
-    height: 130px;
+    height: 110px;
     background-color: rgb(183, 190, 190);
     margin-top: 10px;
 }
@@ -92,12 +98,22 @@ main {
     background-color: #CCC;
 }
 
+.caixa img{
+    width: 100%;
+    height: 100%;
+}
+
 aside {
     font-size: px;
     float: left;
     width: 20%;
     height:660px;
     background-color: #e870f8;
+}
+
+aside img{
+    width: 100%;
+    height: 100%;
 }
 
 footer {
