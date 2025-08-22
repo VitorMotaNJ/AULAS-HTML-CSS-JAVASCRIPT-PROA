@@ -78,13 +78,17 @@ main {
 #container {
     width: 100%;
     height: 200px;
-    background-color: #CCC;
+    background-color: #fff;
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 .caixa{
     width: 30%;
-    height: 140px;
+    height: 100%;
     background-color: #CCC;
 }
 
