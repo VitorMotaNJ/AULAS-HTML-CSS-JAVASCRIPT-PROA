@@ -2,5 +2,5 @@ Repositório contendo o conteúdo de HTML e CSS ensinado e práticado nas aulas 
 
 <details> 
     <summary> Atividade 1</summary>
-    - [index.html](./Atividade%201/index.html)
+    - [index.html](https://github.com/VitorMotaNJ/AULAS-HTML-CSS-PROA/blob/main/Atividade%201/index.html)
 </details>
