@@ -40,7 +40,7 @@ main {
     float: left;
     width: 20%;
     height: 660px;
-    background-color: rgb(255, 255, 190);
+    background-color: rgb(198, 240, 121);
 }
 
 #meio {
@@ -77,14 +77,14 @@ main {
 #meio p {
     width: 100%;
     height: 110px;
-    background-color: rgb(183, 190, 190);
+    background-color: rgb(187, 151, 211);
     margin-top: 10px;
 }
 
 #container {
     width: 100%;
     height: 200px;
-    background-color: #fff;
+    background-color: #efff10;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -98,9 +98,22 @@ main {
     background-color: #CCC;
 }
 
-.caixa img{
-    width: 100%;
-    height: 100%;
+#caixa1{
+    background-image: url(../images/rodovia.jpg);
+    background-size:cover;
+
+}
+
+#caixa2{
+    background-image: url(../images/noiteLunar.jpg);
+    background-size:cover;
+
+}
+
+#caixa3{
+    background-image: url(../images/sol.jpg); 
+    background-size:cover;
+
 }
 
 aside {
