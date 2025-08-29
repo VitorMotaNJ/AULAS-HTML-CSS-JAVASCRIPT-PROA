@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+
+}
+
+img{
+    width: 150px;
+    height: 110px;
+    margin: 30px
+}
+
+div{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    border: 5px double;
+    font-size: 16px;
+    text-align: justify;
+    top: 180px;
+    left: 400px;
+}
+
+div img{
+    margin: 10px;
+    float: left;
+}
+
+#camaro-amarelo{
+    background-color: red;
+    color: yellow;
+    border-color: yellow;
+
+}
+
+
+#fusca-azul{
+    background-color: green;
+    color: blue;
+    border-color: blue;
+}
+
+#uno{
+    background-color: pink;
+    color: grey;
+    border-color: gray;
+}
