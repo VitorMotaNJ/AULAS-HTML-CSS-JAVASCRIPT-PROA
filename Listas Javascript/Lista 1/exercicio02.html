@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+
+   
+    <!-- 2) Escreva um programa que leia o raio de um círculo e calcule sua área e perímetro. -->
+
+    <script>
+
+        let diametro = parseFloat(prompt("Digite o valor do diâmetro do circulo: "))
+
+        let raio = diametro/2
+
+        let area = 3.14 * (raio * raio)
+
+        let perimetro = 2 * 3.14 * raio
+
+        document.write("O Raio do circulo é: "+ raio + "<br>")
+        document.write("A Área do circulo "+ area + "<br>")
+        document.write("O Perímetro do circulo é: "+ perimetro.toFixed(1) + "<br>")
+
+
+    </script>
+
+    
+</body>
+</html>
