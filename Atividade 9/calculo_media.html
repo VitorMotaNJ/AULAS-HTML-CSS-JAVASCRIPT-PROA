@@ -8,6 +8,7 @@
 <body>
 
     <script>
+       
 
         let nota1 = parseFloat(prompt("Entre com a primeira nota: "))
         let nota2 = parseFloat(prompt("Entre com a primeira nota: "))
@@ -16,7 +17,18 @@
 
         let media = (nota1 + nota2 + nota3 + nota4)/4
 
-        document.write("A média das notas adicionadas foi: " + media)
+        document.write("A média das notas adicionadas foi: " + media + "<br>")
+
+        if(media >= 6){
+            document.write("Você está aprovado, parabéns!")
+        }else{
+            document.write("Você está reprovado, que pena!<br>")
+            let img = document.createElement("img")
+            img.src = "./img/reprovado.jpg"
+            img.alt = "Reprovado"
+            img.width = 200
+            document.body.appendChild(img)
+        }
 
     </script>
     
