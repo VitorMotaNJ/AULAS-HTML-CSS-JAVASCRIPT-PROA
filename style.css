@@ -41,6 +41,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 #caixa_titulo{
@@ -51,8 +52,6 @@ section{
     background-color: rgb(84, 204, 37);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    
-
 }
 #caixa_links{
         display: flex;
@@ -64,8 +63,7 @@ section{
 .atividade{
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
-    
+    margin: 24px auto;
     width: 200px;
     height: 180px;
     border-radius: 6px;
