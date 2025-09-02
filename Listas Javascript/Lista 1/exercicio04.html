@@ -11,13 +11,15 @@
 
     <script>
 
-        let nota1 = parseFloat(prompt("Digite a primeira nota do aluno"))
-        let nota2 = parseFloat(prompt("Digite a segunda nota do aluno"))
-        let nota3 = parseFloat(prompt("Digite a terceira nota do aluno"))
 
-        let peso1 = 1
-        let peso2 = 4
-        let peso3 = 2
+        let nota1 = parseFloat(prompt("Digite a primeira nota do aluno"))
+        let peso1 = parseInt(prompt("Digite o peso da primeira nota"))
+
+        let nota2 = parseFloat(prompt("Digite a segunda nota do aluno"))
+        let peso2 = parseInt(prompt("Digite o peso da segunda nota"))
+
+        let nota3 = parseFloat(prompt("Digite a terceira nota do aluno"))
+        let peso3 = parseInt(prompt("Digite o peso da terceirca nota"))
 
         let mediaPonderada = ((nota1 * peso1)+(nota2 * peso2)+ (nota3 * peso3))/ (peso1 + peso2 + peso3)
 
