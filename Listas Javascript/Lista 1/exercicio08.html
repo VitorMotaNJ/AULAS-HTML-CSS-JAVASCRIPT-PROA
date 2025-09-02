@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 8) Escreva um programa que leia dois números inteiros e troque os seus valores, ou seja, o primeiro deve ficar com o valor do segundo e vice-versa. -->
+
+    <script>
+
+        let numero1 = parseInt(prompt("Digite o valor do primeiro número: "))
+        let numero2 = parseInt(prompt("Digite o valor do segundo número: "))
+
+        let guardaNumero = numero1
+        numero1 = numero2
+        numero2 = guardaNumero
+
+        document.write("Valor inicial do primeiro numero: "+numero1+"<br>")
+        document.write("Valor inicial do segundo numero: "+numero2+"<br>")
+
+        document.write("Novo valor inicial do primeiro numero: "+numero1+"<br>")
+        document.write("Novo valor inicial do segndo numero: "+numero2+"<br>")
+
+
+    </script>
+</body>
+</html>
