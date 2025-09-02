@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+</head>
+<body>
+
+    <!-- 9) Crie um programa que leia o valor do depósito mensal em uma poupança e a taxa de juros mensal, e calcule o montante após 12 meses. -->
+    
+    <script>
+
+        let valorMensal = parseFloat(prompt("Digite o valor mensal depositado"))
+
+        let valorMensalInicial = valorMensal
+
+        let jurosMensal = parseFloat(prompt("Digite o valor dos juros mensais")) / 100
+
+        let montante = 0
+
+        for(let i = 0; i < 12; i++){
+            montante += valorMensal
+            montante += montante * jurosMensal
+            document.write("Mês "+ (i + 1) + ": R$"+montante.toFixed(2) + "<br>")
+        }
+
+
+    </script>
+</body>
+</html>
