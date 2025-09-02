@@ -4,5 +4,5 @@ Repositório contendo o conteúdo de HTML, CSS e JAVASCRIPT ensinado e práticad
 
 
 ### Acesse o menu de atividades via GitHub Pages
-#### https://vitormotanj.github.io/AULAS-HTML-CSS-PROA/
+#### https://vitormotanj.github.io/AULAS-HTML-CSS-JAVASCRIPT-PROA/
 
