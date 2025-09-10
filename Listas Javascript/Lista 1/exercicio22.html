@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 22</title>
+</head>
+<body>
+    <script>
+        let salario = Number(prompt("Digite o salário de um funcionario: "))
+        let bonus = 0
+        if(salario > 2000){
+            bonus = salario * .10
+        }else{
+            bonus = salario * .05
+        }
+
+        document.write("Salario inicial: R$"+ salario + "<br>")
+        document.write("Bonus: R$"+ bonus + "<br>")        
+        document.write("Salario novo: R$"+ (salario + bonus))
+
+    </script>
+</body>
+</html>
