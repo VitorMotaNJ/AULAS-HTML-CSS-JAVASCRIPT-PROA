@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let quantidade = Number(prompt("Quantas pessoas no grupo?"))
+        let idade = 0
+        let acumulador = 0
+        
+        for(let i = 1; i <= quantidade; i++){
+            idade = Number(prompt("Digite a idade da " + i + "° pessoa"))
+            if (idade >= 18){
+                acumulador++;
+            }
+        }
+
+        document.write("Existem "+ acumulador+ " pessoas maiores de idade")
+
+    </script>
+</body>
+</html>
