@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 32</title>
+</head>
+<body>
+<script>
+    let nota = parseFloat(prompt("Digite a nota do aluno (0 a 10):"));
+    let conceito = "";
+
+    if (nota >= 9 && nota <= 10) {
+      conceito = "A";
+    } else if (nota >= 7) {
+      conceito = "B";
+    } else if (nota >= 5) {
+      conceito = "C";
+    } else if (nota >= 0) {
+      conceito = "D";
+    } else {
+      conceito = "Nota inválida!";
+    }
+
+    document.write("A nota foi " + nota + " e o conceito é: " + conceito);
+  </script>
+</body>
+</html>
