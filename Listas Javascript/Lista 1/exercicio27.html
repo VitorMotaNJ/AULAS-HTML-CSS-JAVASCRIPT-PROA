@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 27</title>
+</head>
+<body>
+    <script>
+
+        let sexo = prompt("Qual o sexo dessa pessoa? M = Masculino F = Feminino")
+        let idade = Number(prompt("Qual a idade dessa pessoa?"))
+        
+        if (sexo == "M" || sexo == "m"){
+            if (idade >= 65){
+                document.write("Ja pode aposentar")
+            }else{
+                document.write("Ainda não pode aposentar")
+            }
+        }else if(sexo == "F" || sexo == "f"){
+            if (idade >= 60){
+                document.write("Ja pode aposentar")
+            }else{
+                document.write("Ainda não pode aposentar")
+            }  
+        }else{
+            document.write("Selecione uma opção valida")
+        }
+
+        
+
+    </script>
+    
+
+</body>
+</html>
