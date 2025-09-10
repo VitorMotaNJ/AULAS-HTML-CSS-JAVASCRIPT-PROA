@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+    </head>
+    <body>
+
+        <script>
+
+            let numero = Number(prompt("Digite um número para saber sua tabuada: "))
+            if(!numero){
+                document.write("Somente números aceitos")
+            }else{
+                document.write("Tabuada do número: " + numero+"<br>")
+                for(let i = 0; i <= 10; i++){
+                    document.write(numero+" x "+ i + " = "+ (i * numero).toFixed(2)+ "<br>")
+                }
+            }
+        </script>
+
+    </body>
+</html>
