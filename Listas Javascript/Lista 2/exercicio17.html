@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 17</title>
+</head>
+<body>
+
+    <script>
+        let idades = [20]
+        let idade = 0
+        let maiorIdade = 0
+        let media = 0
+
+        for(let i = 1; i <= 5; i++){
+            idade = parseInt(prompt("Digite a idade da "+i+"° pessoa"))
+            if (idade >= 18){
+                maiorIdade++
+            }
+        }
+
+        document.write("Quantas pessoas são maiores de idade: " + maiorIdade)
+    </script>
+    
+</body>
+</html>
