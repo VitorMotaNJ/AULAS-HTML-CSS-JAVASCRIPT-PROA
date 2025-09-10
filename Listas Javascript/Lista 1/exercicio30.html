@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 30</title>
+</head>
+<body>
+    <script>
+        let quantidade = Number(prompt("Digite a quantidade de maçãs a serem compradas: "))
+        let valor = 0
+
+        if (quantidade < 12){
+            valor = quantidade * .50
+            document.write("Quantidade de maçãs: "+ quantidade + "<br>")
+            document.write("preço das maçãs: R$ 0.50 <br>")    
+            document.write("Valor total a ser pago: "+ valor.toFixed(2))        
+        }else{
+            valor = quantidade * .40
+            document.write("Quantidade de maçãs: "+ quantidade + "<br>")
+            document.write("preço das maçãs: R$ 0.40 <br>")    
+            document.write("Valor total a ser pago: "+ valor.toFixed(2))  
+        }
+
+    </script>    
+</body>
+</html>
