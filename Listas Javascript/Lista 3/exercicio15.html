@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 15</title>
+</head>
+<body>
+    <script>
+    
+    let sequencia = Number(prompt("Digite quantos numeros haverão na sequencia: "))
+    let numero = 0
+    let acumulador = 0
+
+
+    for(let i = 1; i <= sequencia; i++){1
+
+        numero = Number(prompt("Digite o "+i+"° número"))
+
+        if (numero < 0){
+            document.write("Número negativo inserido, encerrando execução<br>")
+            break
+        }else{
+            acumulador += numero
+        }
+    }
+        document.write("Soma dos numeros inseridos na sequencia: "+acumulador+"<br>")
+    </script>
+</body>
+</html>
