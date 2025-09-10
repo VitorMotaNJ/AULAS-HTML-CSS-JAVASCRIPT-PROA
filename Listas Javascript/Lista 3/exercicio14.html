@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+</head>
+<body>
+    <script>
+        let numero = 0
+        let acumulador1 = 0
+        let acumulador2 = 0
+        let acumulador3 = 0
+
+        for(let i = 1; i <= 5; i++){
+            numero = Number(prompt("Digite o "+i+"° numero"))
+            if (numero > 0 && numero < 100){
+                acumulador1++
+            }else if (numero > 100 && numero < 200){
+                acumulador2++   
+            }else if(numero > 200){
+                acumulador3++  
+            }
+        }
+        document.write("Foram inseridos "+acumulador1+" numeros entre 0 e 100<br>")
+        document.write("Foram inseridos "+acumulador2+" numeros entre 101 e 200 <br>")
+        document.write("Foram inseridos "+acumulador3+" numeros maiores que 200 <br>")
+
+    </script>
+</body>
+</html>
