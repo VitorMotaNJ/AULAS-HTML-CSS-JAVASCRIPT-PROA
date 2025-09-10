@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Switch Case</title>
+</head>
+<body>
+    <h1>Testando switch case</h1>
+    <script>
+        let semaforo = (prompt("Entre com a cor do semáforo")).toLowerCase()
+
+        switch(semaforo) {
+            case "vermelho":
+                alert("Pare!") 
+                break;
+
+            case "amarelo":
+                alert ("Atenção!")
+                break;
+
+            case "verde":
+                alert("Farol aberto!!")
+                break;
+
+            default: alert("Conr inválida!")
+                break;
+        }
+    </script>
+</body>
+</html>
