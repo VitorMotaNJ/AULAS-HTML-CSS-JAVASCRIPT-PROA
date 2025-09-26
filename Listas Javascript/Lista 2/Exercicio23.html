@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23</title>
+</head>
+<body>
+    <h1>Exercício 23</h1>
+
+    <script>
+        let entre0e100
+        let entre101e200
+        let maiores200
+
+        for (let i = 1; i <= 20; i++) {
+            let numero = parseFloat(prompt(`Digite o ${i}º número:`))
+
+            if (numero >= 0 && numero <= 100) {
+                entre0e100++
+            } else if (numero >= 101 && numero <= 200) {
+                entre101e200++
+            } else if (numero > 200) {
+                maiores200++
+            }
+        }
+
+        document.write(`<p>Números entre 0 e 100: ${entre0e100} <br> Números entre 101 e 200: ${entre101e200} <br> Números maiores que 200: ${maiores200}</p>`)
+    </script>
+</body>
+</html>
