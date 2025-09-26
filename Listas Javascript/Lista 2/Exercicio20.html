@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 20</title>
+</head>
+<body>
+    <h1>Exercício 20</h1>
+
+    <script>
+        let contador = 0
+
+        for (let i = 1; i <= 20; i++) {
+            const numero = parseFloat(prompt(`Digite o ${i}º número:`))
+
+            if (numero > 8) {
+                contador++
+            }
+        }
+
+        document.write(`<p>A quantidade de números maiores que 8 é: ${contador}</p>`);
+    </script>
+</body>
+</html>
