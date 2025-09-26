@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19</title>
+</head>
+<body>
+    <h1>Exercício 19</h1>
+
+    <script>
+        let cotacaoDolar = parseFloat(prompt("Digite a cotação do dólar (US$ para R$):"))
+
+        let quantidadeDolares = parseFloat(prompt("Digite a quantidade de dólares que você possui:"))
+
+        let valorReais = cotacaoDolar * quantidadeDolares
+
+        document.write(`<p>O valor em reais é: R$ ${valorReais.toFixed(2)}</p>`)
+    </script>
+</body>
+</html>
