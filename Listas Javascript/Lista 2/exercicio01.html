@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <script>
+
+        const pratos = {
+            '1': { nome: 'Vegetariano', calorias: 180 },
+            '2': { nome: 'Peixe', calorias: 230 },
+            '3': { nome: 'Frango', calorias: 250 },
+            '4': { nome: 'Carne', calorias: 350 }
+        };
+
+        const sobremesas = {
+            '1': { nome: 'Abacaxi', calorias: 75 },
+            '2': { nome: 'Sorvete diet', calorias: 110 },
+            '3': { nome: 'Mouse diet', calorias: 170 },
+            '4': { nome: 'Mouse chocolate', calorias: 200 }
+        };
+
+        const bebidas = {
+            '1': { nome: 'Chá', calorias: 20 },
+            '2': { nome: 'Suco de laranja', calorias: 70 },
+            '3': { nome: 'Suco de melão', calorias: 100 },
+            '4': { nome: 'Refrigerante diet', calorias: 65 }
+        };
+
+        const opcaoPrato = prompt(
+            "Escolha a numeração do seu prato:\n" +
+            "1: Vegetariano (180 cal)\n" +
+            "2: Peixe (230 cal)\n" +
+            "3: Frango (250 cal)\n" +
+            "4: Carne (350 cal)"
+        );
+
+        const opcaoSobremesa = prompt(
+            "Escolha a numeração do sua sobremesa:\n" +
+            "1: Abacaxi (75 cal)\n" +
+            "2: Sorvete diet (110 cal)\n" +
+            "3: Mouse diet (170 cal)\n" +
+            "4: Mouse chocolate (200 cal)"
+        );
+
+        const opcaoBebida = prompt(
+            "Escolha a numeração do sua bebida:\n" +
+            "1: Chá (20 cal)\n" +
+            "2: Suco de laranja (70 cal)\n" +
+            "3: Suco de melão (100 cal)\n" +
+            "4: Refrigerante diet (65 cal)"
+        );
+
+        if (pratos[opcaoPrato] && sobremesas[opcaoSobremesa] && bebidas[opcaoBebida]) {
+            
+            const caloriasPrato = pratos[opcaoPrato].calorias;
+            const caloriasSobremesa = sobremesas[opcaoSobremesa].calorias;
+            const caloriasBebida = bebidas[opcaoBebida].calorias;
+
+ 
+            const totalCalorias = caloriasPrato + caloriasSobremesa + caloriasBebida;
+
+            document.write(
+                `Resumo da sua refeição:<br><br>` +
+                `Prato: ${pratos[opcaoPrato].nome}<br>` +
+                `Sobremesa: ${sobremesas[opcaoSobremesa].nome}<br>` +
+                `Bebida: ${bebidas[opcaoBebida].nome}<br><br>` +
+                `O total de calorias da sua refeição é: ${totalCalorias} cal.`
+            );
+
+        } else {
+            document.write("Opção inválida!<br4> Por favor, recarregue a página e escolha um dos números disponíveis em cada categoria.");
+        }
+    </script>
+</body>
+</html>
