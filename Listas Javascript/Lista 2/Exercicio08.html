@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 08</title>
+</head>
+<body>
+    <h1>Exercício 08</h1>
+
+    <script>
+        let ipi = parseFloat(prompt("Informe a porcentagem do IPI (%):"))
+
+        let cod1 = prompt("Digite o código da peça 1:")
+        let valor1 = parseFloat(prompt("Digite o valor unitário da peça 1 (R$):"))
+        let quant1 = parseInt(prompt("Digite a quantidade da peça 1:"))
+
+        let cod2 = prompt("Digite o código da peça 2:")
+        let valor2 = parseFloat(prompt("Digite o valor unitário da peça 2 (R$):"))
+        let quant2 = parseInt(prompt("Digite a quantidade da peça 2:"))
+
+        let total = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1)
+
+        document.write("<p><strong>Peça 1:</strong> Código " + cod1 + " | Valor unitário: R$ " + valor1.toFixed(2) + " | Quantidade: " + quant1 + "</p>")
+        document.write("<p><strong>Peça 2:</strong> Código " + cod2 + " | Valor unitário: R$ " + valor2.toFixed(2) + " | Quantidade: " + quant2 + "</p>")
+        document.write("<p><strong>IPI:</strong> " + ipi + "%</p>")
+        document.write("<h3>Valor total a pagar: R$ " + total.toFixed(2) + "</h3>")
+    </script>
+</body>
+</html>
