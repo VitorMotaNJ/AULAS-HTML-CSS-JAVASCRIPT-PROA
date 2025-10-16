@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício 5</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Exercício 05</h1>
 
     <script>
-        let idade = parseInt(prompt("Digite sua idade:"))
+      let idade = parseInt(prompt("Digite sua idade:"));
 
-        let classe
+      let classe;
 
-        if (idade < 16) {
-            classe = "Não eleitor"
-        } else if ((idade >= 16 && idade < 18) || idade >= 65) {
-            classe = "Eleitor facultativo"
-        } else {
-            classe = "Eleitor obrigatório"
-        }
-        
-        document.write("<h2>Classe Eleitoral</h2>")
-        document.write("<p><strong>Idade:</strong> " + idade + " anos</p>")
-        document.write("<p><strong>Situação:</strong> " + classe + "</p>")
+      if (idade < 16) {
+        classe = "Não eleitor";
+      } else if ((idade >= 16 && idade < 18) || idade >= 65) {
+        classe = "Eleitor facultativo";
+      } else {
+        classe = "Eleitor obrigatório";
+      }
+
+      document.write("<h2>Classe Eleitoral</h2>");
+      document.write("<p><strong>Idade:</strong> " + idade + " anos</p>");
+      document.write("<p><strong>Situação:</strong> " + classe + "</p>");
     </script>
-</body>
+  </body>
 </html>

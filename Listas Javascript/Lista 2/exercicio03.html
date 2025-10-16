@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercicio 3</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <script>
-        let saldoMedio = parseInt(prompt("Digite o seu saldo médio"))
-        let porcentagem = 0
-        let total = 0
+      let saldoMedio = parseInt(prompt("Digite o seu saldo médio"));
+      let porcentagem = 0;
+      let total = 0;
 
-        if(saldoMedio < 0){
-            alert("Valor inválido")
-            document.write("Nenhum crédito adicional")
-        }else{
-            if (saldoMedio > 500 & saldoMedio < 1001){
-                porcentagem = saldoMedio * 0.30
-                total = saldoMedio + porcentagem
-            }else if (saldoMedio > 1000 &  saldoMedio < 3001)
-            {
-                porcentagem = saldoMedio * 0.40
-                total = saldoMedio + porcentagem
-            }else if (saldoMedio > 3001){
-                porcentagem = saldoMedio * 0.50
-                total = saldoMedio + porcentagem
-
-            }else{
-                total = saldoMedio + porcentagem
-            }
-            document.write("Valor do saldo médio inserido: R$"+ saldoMedio + "<br>")
-            document.write("Valor da porcentagem: R$"+ porcentagem.toFixed(2) + "<br>")
-            document.write("Valor total: R$"+ total.toFixed(2) + "<br>")
+      if (saldoMedio < 0) {
+        alert("Valor inválido");
+        document.write("Nenhum crédito adicional");
+      } else {
+        if ((saldoMedio > 500) & (saldoMedio < 1001)) {
+          porcentagem = saldoMedio * 0.3;
+          total = saldoMedio + porcentagem;
+        } else if ((saldoMedio > 1000) & (saldoMedio < 3001)) {
+          porcentagem = saldoMedio * 0.4;
+          total = saldoMedio + porcentagem;
+        } else if (saldoMedio > 3001) {
+          porcentagem = saldoMedio * 0.5;
+          total = saldoMedio + porcentagem;
+        } else {
+          total = saldoMedio + porcentagem;
         }
-
-    </script>  
-</body>
+        document.write(
+          "Valor do saldo médio inserido: R$" + saldoMedio + "<br>"
+        );
+        document.write(
+          "Valor da porcentagem: R$" + porcentagem.toFixed(2) + "<br>"
+        );
+        document.write("Valor total: R$" + total.toFixed(2) + "<br>");
+      }
+    </script>
+  </body>
 </html>

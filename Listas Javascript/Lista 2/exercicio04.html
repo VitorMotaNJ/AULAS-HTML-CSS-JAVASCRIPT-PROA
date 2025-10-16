@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Exercicio 4</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        const a = parseFloat(prompt("Digite o primeiro valor (A):"));
-        const b = parseFloat(prompt("Digite o segundo valor (B):"));
-        const c = parseFloat(prompt("Digite o terceiro valor (C):"));
+      const a = parseFloat(prompt("Digite o primeiro valor (A):"));
+      const b = parseFloat(prompt("Digite o segundo valor (B):"));
+      const c = parseFloat(prompt("Digite o terceiro valor (C):"));
 
-        if (isNaN(a) || isNaN(b) || isNaN(c)) {
-            document.write("Erro: Por favor, digite apenas números válidos.");
-        } else {
-            const valores = [a, b, c];
+      if (isNaN(a) || isNaN(b) || isNaN(c)) {
+        document.write("Erro: Por favor, digite apenas números válidos.");
+      } else {
+        const valores = [a, b, c];
 
-            valores.sort((n1, n2) => n2 - n1);
+        valores.sort((n1, n2) => n2 - n1);
 
-            document.write("Os valores em ordem descendente são: " + valores.join(', '));
-        }
+        document.write(
+          "Os valores em ordem descendente são: " + valores.join(", ")
+        );
+      }
     </script>
-</body>
+  </body>
 </html>
