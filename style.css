@@ -1,10 +1,10 @@
 html, *{
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 body{
-    margin: 40px 0px;
+    margin: 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,19 +21,23 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width:80%;
     height: auto;
     margin: auto;
     background-color: rgb(86, 185, 250);
-    padding: 32px 0px;
+    padding: 32px 32px;
     border-radius: 5px;
     box-shadow: 0px 0px 50px rgba(0,0,0,0.25);
 
-}
-header h1, header h2{
-    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 
 }
+ h1, h3{
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+h3{
+    margin-top: 6px;
+}
+
 section{
     padding: 20px 0px;
     width: 100%;
