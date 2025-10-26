@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../assets/fontes/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../assets/fontes/LibreBaskerville-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Architects Daughter';
+  src: url('../assets/fontes/ArchitectsDaughter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis-VariableFont';
+  src: url('../assets/fontes/Dosis-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 800px;
+  background-color: red;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #c5dbf2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+header #ladoDireito {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap:32px;
+  text-align: center;
+  width: 35%;
+}
+
+header #ladoEsquerdo{
+  display: flex;
+  align-items: center;
+  gap:64px;
+  text-align: center;
+  justify-content: start;
+  width: 35%;
+}
+
+header #centro{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+header a{
+  text-decoration: none;
+  color: #0e2145;
+  font-family: 'Dosis-VariableFont', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+header #botaoConectar{
+  border: 2px solid black;
+  padding: 12px 20px;
+}
+
+header #botaoCadastro{
+  padding: 12px 20px;
+  color: white;
+  background-color: #007c89;
+}
