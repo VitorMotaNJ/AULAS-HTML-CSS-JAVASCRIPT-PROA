@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: white;
+  text-align: center;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+  color: #e50914;
+  font-size: 28px;
+}
+
+.botao-entrar {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.inicio {
+  padding: 100px 20px;
+  background: url("../img/banner.jpg") center/cover no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+}
+
+.inicio h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.inicio p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.formulario input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+}
+
+.formulario button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.galeria {
+  padding: 60px 20px;
+  background-color: #000;
+}
+
+.galeria h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.grade-imagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grade-imagens img {
+  width: 200px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.grade-imagens img:hover {
+  transform: scale(1.05);
+}
+
+.secao {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: black;
+}
+
+.caixa h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.caixa p {
+  color: #b3b3b3;
+}
+
+.secao.dupla {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.secao.dupla .caixa {
+  max-width: 400px;
+  text-align: left;
+}
+
+.faq {
+  background-color: #000;
+  padding: 50px 20px;
+}
+
+.faq details {
+  background-color: #222;
+  margin: 10px auto;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rodape {
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #000;
+}
+
+.links {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.links a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 0.8rem;
+  color: #777;
+}
