@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Exercicio 2</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        const entrada = prompt("Por favor, digite um número inteiro:");
-        const numero = parseInt(entrada);
+      const entrada = prompt("Por favor, digite um número inteiro:");
+      const numero = parseInt(entrada);
 
-        if (isNaN(numero)) {
-            document.write("Entrada inválida. Por favor, digite um número.");
+      if (isNaN(numero)) {
+        document.write("Entrada inválida. Por favor, digite um número.");
+      } else {
+        if (numero % 10 === 0) {
+          document.write(
+            `O número ${numero} é divisível por 10, por 5 e por 2.`
+          );
+        } else if (numero % 5 === 0) {
+          document.write(`O número ${numero} é divisível por 5.</p>`);
+        } else if (numero % 2 === 0) {
+          document.write(`O número ${numero} é divisível por 2.</p>`);
         } else {
-            if (numero % 10 === 0) {
-                document.write(`O número ${numero} é divisível por 10, por 5 e por 2.`);
-            } else if (numero % 5 === 0) {
-                document.write(`O número ${numero} é divisível por 5.</p>`);
-            } else if (numero % 2 === 0) {
-                document.write(`O número ${numero} é divisível por 2.</p>`);
-            } else {
-                document.write(`O número ${numero} não é divisível por 10, nem por 5, nem por 2.`);
-            }
+          document.write(
+            `O número ${numero} não é divisível por 10, nem por 5, nem por 2.`
+          );
         }
+      }
     </script>
-</body>
+  </body>
 </html>
