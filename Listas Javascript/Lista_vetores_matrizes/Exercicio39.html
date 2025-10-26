@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício39</title>
+  </head>
+  <body>
+    <p>
+      39) Crie um programa que leia o nome e a idade de 5 pessoas e exiba a
+      média das idades.
+    </p>
+    <script>
+      let soma = 0;
+
+      for (let i = 1; i <= 5; i++) {
+        let nome = prompt("Nome da pessoa " + i + ":");
+        let idade = parseInt(prompt("Idade de " + nome + ":"));
+        soma += idade;
+      }
+
+      document.write("Média das idades: " + soma / 5);
+    </script>
+  </body>
+</html>

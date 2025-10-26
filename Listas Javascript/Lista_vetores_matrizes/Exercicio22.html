@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <p>
+      22) Faça um programa que leia um número inteiro e exiba se ele é um número
+      primo usando o loop "do-while".
+    </p>
+    <script>
+      let num = parseInt(prompt("Digite um número:"));
+      let contador = 2;
+      let primo = true;
+      if (num < 2) primo = false;
+      do {
+        if (num % contador === 0 && contador !== num) {
+          primo = false;
+          break;
+        }
+        contador++;
+      } while (contador < num);
+      if (primo) {
+        document.write(num + " é primo");
+      } else {
+        document.write(num + " não é primo");
+      }
+    </script>
+  </body>
+</html>

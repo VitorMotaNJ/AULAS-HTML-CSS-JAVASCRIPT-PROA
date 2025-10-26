@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 06</title>
+  </head>
+  <body>
+    <p>
+      6) Crie um programa que leia um número inteiro positivo e exiba todos os
+      divisores desse número usando o loop "while".
+    </p>
+    <script>
+      let num = parseInt(prompt("Insira um número positivo:"));
+      let contador = 1;
+      while (contador <= num) {
+        if (num % contador === 0) {
+          document.write(contador + "<br>");
+        }
+        contador++;
+      }
+    </script>
+  </body>
+</html>

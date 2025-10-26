@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício44</title>
+  </head>
+  <body>
+    <p>
+      44) Escreva um programa que calcule o fatorial de um número inteiro
+      inserido pelo usuário.
+    </p>
+    <script>
+      let n = parseInt(prompt("Digite um número:"));
+      let fat = 1;
+
+      for (let i = 1; i <= n; i++) {
+        fat *= i;
+      }
+
+      document.write("Fatorial de " + n + " é " + fat);
+    </script>
+  </body>
+</html>
