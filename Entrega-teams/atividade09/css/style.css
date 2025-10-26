@@ -26,6 +26,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('../assets/fontes/ArchitectsDaughter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 *{
   margin: 0;
@@ -94,14 +101,14 @@ section{
   flex-direction: row;
   align-items:flex-end;
   height: 550px;
-  justify-content: center;
+  justify-content:end;
 }
 
 section #ladoEsquerdo{
+  position: relative;
   display: flex;
   flex-direction: column;
-
-  width: 40%;
+  width: 30%;
   padding: 20px;
   gap: 20px;
   
@@ -130,6 +137,87 @@ section #ladoEsquerdo a{
 }
 
 section #ladoDireito{
-  background-color: yellow;
+
+  position: relative;
   width: 50%;
+}
+
+section #caixaMenor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 0px 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+section #caixaMenor #topoCaixaMenor{
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 12px;
+  background-color: #eeeeec;
+}
+
+section #caixaMenor a{
+  display: inline;
+  position: relative;
+  width: auto;
+  align-self: flex-start;
+  text-decoration: none;
+  padding: 6px 12px;
+  color: white;
+  font-size: 1em;
+  background-color: #007c89;  
+  left: 50%;
+  border-radius: 6px;
+  transform: translateX(-50%);
+  margin: 20px 0px;
+}
+
+section #topoCaixaMaior{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+
+section #topoCaixaMaior #pontinhos{
+  width: 30px;
+  height: 20px;
+}
+
+section #topoCaixaMaior #carrinho{
+  width: 30px;
+}
+
+#caixaMaior {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7d5c5;
+  width: 600px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+#figura2 {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin-left: 32px;
+  padding-bottom: 64px;
+}
+
+h2{
+  font-family: 'ArchitectsDaughter';
+  text-align: center;
 }
