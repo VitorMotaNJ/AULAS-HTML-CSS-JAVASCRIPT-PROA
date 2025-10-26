@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Libre BaskervilleLibre Baskerville';
   src: url('../assets/fontes/LibreBaskerville-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -36,13 +36,12 @@
 body{
   width: 100vw;
   height: 800px;
-  background-color: red;
+  background-color: #c5dbf2;
 }
 
 header{
   width: 100%;
   height: 70px;
-  background-color: #c5dbf2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -88,4 +87,49 @@ header #botaoCadastro{
   padding: 12px 20px;
   color: white;
   background-color: #007c89;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height: 550px;
+  justify-content: center;
+}
+
+section #ladoEsquerdo{
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+  padding: 20px;
+  gap: 20px;
+  
+}
+
+section h1{
+  font-family: 'Libre Baskerville';
+  font-size: 2em;
+}
+
+section p, section a{
+  font-family: 'Dosis-VariableFont', sans-serif;
+  font-size: 1.5em;
+
+}
+
+section #ladoEsquerdo a{
+  display: inline;
+  width: auto;
+  align-self: flex-start;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: white;
+  font-size: 1.5em;
+  background-color: #007c89;
+}
+
+section #ladoDireito{
+  background-color: yellow;
+  width: 50%;
 }
