@@ -45,6 +45,7 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -127,7 +128,7 @@ section{
     display: flex;
     flex-direction: column;
     margin: 24px auto;
-    width: 350px;
+    width: 300px;
     flex-wrap: wrap;
     height: auto;
     border-radius: 6px;
@@ -138,13 +139,13 @@ section{
     transition: .5s ease-out;
 }
 .lista #caixa_links{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        height: auto;
-        padding: 0px 8px;
-        }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+
+}
 
 .lista:hover #caixa_titulo{
     transition: .25s ease-in;
@@ -180,7 +181,7 @@ section{
     transition: .5s;
     padding: 12px 0px;
     align-items: center;
-    width:49%;
+    width:50%;
     justify-content: space-between;
     word-wrap: break-word;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
